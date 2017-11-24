@@ -1,0 +1,14 @@
+// Footer SCSS
+.ina-footer{
+  height: 10vh;
+  text-align: center;
+  p{
+    margin: 0;
+  }
+  @include tablet {
+    text-align: left;
+  }
+}
+.ina-footer-small{
+  height: auto;
+}

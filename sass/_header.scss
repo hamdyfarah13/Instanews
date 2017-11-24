@@ -1,0 +1,66 @@
+// Header SCSS
+.ina-header{
+  height:90vh;
+  text-align: center;
+  position: relative;
+  transition: height 1s ease-in-out;
+  img{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+    transition: height 0.5s ease-in-out;
+  }
+  p{
+    margin: 20px 0;
+  }
+  .header-select-section{
+    width: auto;
+  }
+  .select-categories-dropdown{
+    transition: margin-top 1s ease-in-out;
+    option{
+      text-transform: capitalize;
+    }
+  }
+  .ina-loading-gif{
+    max-width: 70px;
+    height: auto;
+    margin: 20px auto 0 auto;
+    display: block;
+  }
+  @include tablet {
+    justify-content: flex-start;
+    .header-logo-select-section{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      img{
+        margin: 0;
+        display: inline-block;
+      }
+      p{
+        margin: 0 0 20px 0;
+      }
+      .ina-loading-gif{
+        margin: 0 0 0 40px;
+      }
+    }
+    .header-select-section{
+      display: inline-block;
+      width: 150px;
+    }
+  }
+}
+.ina-header-small{
+  height: 260px;
+  img{
+    height: 100px;
+  }
+  .select-categories-dropdown{
+    margin-top: 10px;
+  }
+  @include tablet {
+    height: 200px;
+  }
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Instanews App</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./build/css/style.min.css">
+  </head>
+  <body>
+    <!-- Header section containing the logo and the select and the loading gif  -->
+    <header class="ina-header container vertical-align-center">
+      <h1 class="screen-reader">New York Times App</h1>
+      <div class="header-logo-select-section">
+        <img src="img/nyt-logo.svg" alt="New York Times Logo"/>
+        <div class="header-select-section">
+          <p>Choose a section</p>
+          <!-- The select dom and its options  -->
+          <select id="select-categories-dropdown" class="select-categories-dropdown">
+            <option value="">--- Select ----</option>
+            <option value="home">Home</option>
+            <option value="opinion">Opinion</option>
+            <option value="world">World</option>
+            <option value="national">National</option>
+            <option value="politics">Politics</option>
+            <option value="upshot">Upshot</option>
+            <option value="nyregion">NY Region</option>
+            <option value="business">Business</option>
+            <option value="technology">Technology</option>
+            <option value="science">Science</option>
+            <option value="health">Health</option>
+            <option value="sports">Sports</option>
+            <option value="arts">Arts</option>
+            <option value="books">Books</option>
+            <option value="movies">Movies</option>
+            <option value="theater">Theater</option>
+            <option value="sundayreview">Sunday Review</option>
+            <option value="fashion">Fashion</option>
+            <option value="tmagazine">TMagazine</option>
+            <option value="food">Food</option>
+            <option value="travel">Travel</option>
+            <option value="magazine">Magazine</option>
+            <option value="realestate">Real Estate</option>
+            <option value="automobiles">Automobiles</option>
+            <option value="obituaries">Obituaries</option>
+            <option value="insider">Insider</option>
+          </select>
+        </div>
+      </div>
+    </header>
+    <!-- Content section where the top stories will be appended to  -->
+    <section class="ina-top-stories-section">
+      <h2 class="screen-reader">New York Times Top Stories</h2>
+      <ul id="top-stories-list" class="top-stories-list flex-container"></ul>
+    </section>
+    <!-- Footer section containing the copyrights  -->
+    <footer class="ina-footer container">
+      <p>© Copyright 2017 INSTANEWS</p>
+    </footer>
+    <!-- Scripts to load -->
+    <script type="text/javascript" src="js/vendor/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/vendor/jquery.selectric.min.js"></script>
+    <script type="text/javascript" src="build/js/main.min.js"></script>
+  </body>
+</html>

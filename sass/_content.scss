@@ -1,0 +1,38 @@
+// Content SCSS
+.ina-top-stories-section{
+  .ina-loading-gif{
+    max-width: 70px;
+    margin: 0 auto;
+    display: block;
+  }
+  .top-stories-list{
+    padding: 0;
+    margin: 0;
+    .top-stories-list-item{
+      list-style: none;
+    }
+    .top-stories-item{
+      height:400px;
+      background-size: cover;
+      background-position: center;
+      overflow: auto;
+      position: relative;
+      overflow-y: hidden;
+      p{
+        position: absolute;
+        bottom: -50%;
+        padding: 10px 15px;
+        margin: 0;
+        background-color: rgba(0,0,0,0.7);
+        width: 100%;
+        height: 50%;
+        transition: bottom 0.2s ease-in-out;
+      }
+      &:hover{
+        p{
+          bottom: 0;
+        }
+      }
+    }
+  }
+}
