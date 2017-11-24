@@ -1,33 +1,27 @@
-# Project 2 - Instanews App
-Instanews App is an app that displays the different top news stories from the New York Times. Users can filter through different sections of the New York Times and the app will display 12 top stories from that section of the New York Times. 
+ # Instanews App - NY Times api
 
-  - Select section from the select dropdown
-  - Hover over the images to see abstract
-  - Click on desirable article
-  - App will redirect user to the story in New York Times website
+  The Instanews app was developed to showcase my abilities in working with JQuery and AJAX to retrieve up-to-date articles from the New York Times' top-stories. 
 
-### Tech & Programming Language
-Instanews App uses the following:
+  I implemented a 'mobile-first' approach with responsive a layout with flexbox integrated in. 
 
-* HTML
-* CSS
-* SASS/SCSS
-* Javascript
-* jQuery
-* Gulp
+## Built With
 
-### Screenshot
-These are the screenshot of what the app would look like in the different screen sizes. Starting from mobile first, tablet followed by desktop view.
-  - Mobile (Below 600px)
-  - Tablet (Between 600px and 1000px)
-  - Desktop (above 1000px)
+* Javascript - JQuery - AJAX
+* CSS3 (Flexbox)
+* HTML5
+* Gulp - task runner
 
-  ![Aloha desktop](./img/readme-screenshot/readme-screenshot-1.jpg)
+## API Reference
 
-  #### On Hover
-  When user hovers over the images, a excerpt will be shown and users can click anywhere on the picture to go to the New York Times website to read the article in more detail.
+* New York Times- (https://developer.nytimes.com/top_stories_v2.json#/README)
 
-  ![Aloha desktop](./img/readme-screenshot/readme-screenshot-2.jpg)
+## Authors
+
+* **Hamdy Farah** - (https://github.com/hamdyfarah13)
+
+## Acknowledgments
+
+* Red Academy Instructors for their support.# Project02-Instanews
 
 ### Plugins
 Instanews App uses these following plugins:
